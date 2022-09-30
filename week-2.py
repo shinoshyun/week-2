@@ -1,4 +1,7 @@
 # Q1
+from operator import is_not
+
+
 def calculate(min, max, step):
 
     answer = 0
@@ -23,7 +26,7 @@ def avg(data):
     for i in range(data.employees.len):
         isManager = data.employees[i].manager
 
-        if is isManager:
+        if is_not isManager:
         count += count
         total += data.employees[i].salary
 
