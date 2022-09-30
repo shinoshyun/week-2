@@ -20,8 +20,15 @@ def avg(data):
     count = 0
     total = 0
 
-    for i in range(0, data.employees.len):
+    for i in range(data.employees.len):
         isManager = data.employees[i].manager
+
+        if is isManager:
+        count += count
+        total += data.employees[i].salary
+
+    averageSalary = total / count
+    print(averageSalary)
 
 
 avg({
