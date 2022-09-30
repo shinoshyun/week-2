@@ -33,7 +33,7 @@ function avg(data) {
     //一樣設i 去搜尋每行不是職員的人
     for (let i = 0; i < data.employees.length; i++) {
         let isManager = data.employees[i].manager;
-
+        //如果不是職員的話，把薪水加起來
         if (!isManager) {
             count++;
             total += data.employees[i].salary;
