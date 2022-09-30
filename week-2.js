@@ -30,7 +30,7 @@ function avg(data) {
     let count = 0;
     let total = 0;
 
-    //一樣設i 去搜尋每行的
+    //一樣設i 去搜尋每行不是職員的人
     for (let i = 0; i < data.employees.length; i++) {
         let isManager = data.employees[i].manager;
 
