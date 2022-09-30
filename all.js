@@ -1,4 +1,4 @@
-console.log("//Q1")
+//Q1
 function calculate(min, max, step) {
 
     //先設一個answer的空間
@@ -23,7 +23,7 @@ calculate(-1, 2, 2); // 你的程式要能夠計算 -1+1，最後印出 0
 
 
 
-console.log("//Q2")
+//Q2
 function avg(data) {
 
     let averageSalary = 0;
@@ -72,7 +72,7 @@ avg({
 
 
 
-console.log("//Q3")
+//Q3
 function func(a) {
     function func2(b, c) {
         console.log(a + b * c);
@@ -90,7 +90,7 @@ func(-3)(2, 9); // 你補完的函式能印出 -3+(2*9) 的結果 15
 
 
 
-console.log("//Q4")
+//Q4
 function maxProduct(nums) {
     // 要比較陣列中所有元素相乘後的大小
     // 所以取第一個跟第二個相乘後的結果暫存到max中
@@ -126,7 +126,7 @@ maxProduct([-5, -2]) // 得到 10
 
 
 
-console.log("//Q5")
+//Q5
 function twoSum(nums, target) {
 
     //因為最後要顯示的是[0,2]，所以要創建一個空間，為的是最後用.push 把最後陣列的數字寫上去
@@ -156,7 +156,7 @@ console.log(result); // show [0, 2] because nums[0]+nums[2] is 9
 
 
 
-console.log("//Q6")
+//Q6
 function maxZeros(nums) {
     // 請用你的程式補完這個函式的區塊
     let max = 0;
