@@ -77,9 +77,10 @@ function func(a) {
     function func2(b, c) {
         console.log(a + b * c);
     }
+    //指定要叫func2這個函式傳出去
     return func2;
 }
-
+//這個只是呼叫func(a)
 func(2)(3, 4); // 你補完的函式能印出 2+(3*4) 的結果 14
 func(5)(1, -5); // 你補完的函式能印出 5+(1*-5) 的結果 0
 func(-3)(2, 9); // 你補完的函式能印出 -3+(2*9) 的結果 15
