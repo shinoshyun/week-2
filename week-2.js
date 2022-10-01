@@ -39,7 +39,7 @@ function avg(data) {
             total += data.employees[i].salary;
         }
     }
-
+    //總金額除以職員數量
     averageSalary = total / count;
     console.log(averageSalary)
 }
