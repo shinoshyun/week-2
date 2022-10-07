@@ -135,11 +135,11 @@ function twoSum(nums, target) {
     let num = 0;
 
     for (let i = 0; i < nums.length - 1; i++) {
-        num = nums[i];
+
         for (let j = i + 1; j < nums.length; j++) {
 
             //結果要有符合target，才會把答案跑出來，不然會再繼續跑for迴圈找相對應的答案
-            if (target == num + nums[j]) {
+            if (target == nums[i] + nums[j]) {
 
                 //把結果推上上面result設的空間[]
                 result.push(i);
